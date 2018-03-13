@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>native.freeimage.vc140.redist</id>
+    <version>3.17.0</version>
+    <title>FreeImage vc140 Redist</title>
+    <authors>FreeImage</authors>
+    <owners>julusian</owners>
+    <licenseUrl>http://freeimage.sourceforge.net/license.html</licenseUrl>
+    <projectUrl>http://freeimage.sourceforge.net/</projectUrl>
+    <iconUrl>http://freeimage.sourceforge.net/images/logo.jpg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Redistributable components for package 'freeimage'. This package should only be installed as a dependency. 
+(This is not the package you are looking for).</description>
+    <summary>Redistributable components for for package 'freeimage'</summary>
+    <releaseNotes>Initial package creation</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>native freeimage nativepackage</tags>
+  </metadata>
+
+  <files>
+    <file src="..\Dist\Freeimage.dll" target="build\native\bin\x64\dynamic" />
+    <file src="..\Dist\Freeimaged.dll" target="build\native\bin\x64\dynamic" />
+  </files>
+</package>

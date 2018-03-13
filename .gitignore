@@ -1,0 +1,12 @@
+.tools/*
+
+*.nupkg
+*.sdf
+*.opensdf
+*.suo
+*.user
+*.log
+_ReSharper*
+out
+*Thumbs.db
+*.bz2
